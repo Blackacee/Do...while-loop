@@ -1,2 +1,6 @@
 # Do...while-loop
-Do... while loops in JS 
+
+var availableName;
+do {
+ availableName = getRandomName();
+} while (isNameUsed(name));
